@@ -1,0 +1,34 @@
+.selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.num-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--lightbeige);
+    border: 2px solid var(--gold);
+    border-radius: 4px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.num-btn.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+.num-btn.selected {
+    background: var(--gold);
+}
+.num-img {
+    width: 50px;
+    height: 36px;
+    margin-bottom: 0.5rem;
+}
+.cnt {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    color: var(--char);
+}

@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--brown);
+    color: var(--beige);
+    justify-content: center;
+}
+.nav-link {
+    color: var(--beige);
+    font-weight: 600;
+}
+.nav-link.active {
+    border-bottom: 2px solid var(--gold);
+}
+.main-content {
+    padding: 1rem;
+}
+@media (max-width: 600px) {
+    .navbar { flex-wrap: wrap; }
+}
